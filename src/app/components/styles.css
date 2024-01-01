@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tech-stack-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.animate-charcter {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 5vw;
+    /* Adjust font size using viewport width */
+    margin-top: 5.5vw;
+    /* Adjust margin using viewport width */
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 2vw;
+    /* Adjust margin using viewport width */
+}
+
+@keyframes gradientChange {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .animate-charcter {
+        font-size: 8vw;
+        /* Adjust font size for smaller screens */
+        margin-top: 4vw;
+        /* Adjust margin for smaller screens */
+    }
+
+    .icon {
+        margin-right: 0;
+        margin-bottom: 4vw;
+        /* Adjust margin for smaller screens */
+    }
+}
+
+/* Adjust gap and icon size based on screen width */
+@media (max-width: 500px) {
+    .icon {
+        margin-bottom: 2vw;
+        /* Adjust margin for smaller screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .icon {
+        margin-right: 3vw;
+        /* Adjust margin for larger screens */
+    }
+}
+
+/* Adjust icon size based on screen width */
+@media (max-width: 768px) {
+    .icon img {
+        width: 8vw;
+        /* Adjust image size for smaller screens */
+        height: 8vw;
+        /* Adjust image size for smaller screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .icon img {
+        width: 5vw;
+        /* Adjust image size for larger screens */
+        height: 5vw;
+        /* Adjust image size for larger screens */
+    }
+}

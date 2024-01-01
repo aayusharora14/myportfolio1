@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Design & Analysis of Algorithms",
+    "price": "NPTEL | IIT Madras",
+    "detail": "Course by IIT Madras where we deeply learn about algorithms & Earn a certificate on clearing a National Level Exam",
+    "image": "./r1.png",
+    "link": "./NPTEL.pdf"
+  },
+  {
+    "name": "Training in Project Management | Coursera",
+    "price": "Grow with Google",
+    "detail": "Training program goes for 6 months with 6 courses for practical learning of Program Management by Google Instructors.",
+    "image": "./r2.png",
+    "link": "./googlem.pdf"
+  },
+  {
+    "name": "Android basics in Kotlin",
+    "price": "Google Developers Student Club",
+    "detail": "Course provided by Google for Kotlin under Android Study Jams Program.",
+    "image": "./r3.png",
+    "link": "./googlek.pdf"
+  },
+  {
+    "name": "Sparkathon | Converge\r\r",
+    "price": "Walmart\r",
+    "detail": "Certificate of Appreciation issued by Walmart for commendable performance and Project Prototype Submission in the International Hackathon by the company. ",
+    "image": "./r4.png",
+    "link": "./Sparkathon.pdf"
+  },
+  {
+    "name": "Database Foundations",
+    "price": "Oracle Academy",
+    "detail": "Certified by Oracle Academy for completing the course of Relational Database Management System also including SQL.",
+    "image": "./r5.png",
+    "link": "./OracleCertificate.pdf"
+  },
+  {
+    "name": "Networking Essentials",
+    "price": "Cisco Networking Academy",
+    "detail": "Course Completion of Networking essentials including basics of Computer Network & Cisco Packet Tracer.",
+    "image": "./r6.png",
+    "link": "./cisco.pdf"
+  },
+  {
+    "name": "Reverse Shark Tank",
+    "price": "The Competition Factory",
+    "detail": "Secured a top 20 position in ”The Reverse Shark Tank” hackathon.",
+    "image": "./r7.png",
+    "link": "./rst.pdf"
+  }
+]
