@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import { HeroSection } from './components/herosection';
+import { HeroSection } from '../components/herosection';
 import NavBar from './components/NavBar';
 import AboutSection from './components/AboutSection';
 import Qualification from './components/qualification/Qualification';
